@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e50d92d4-bd28-4d1e-9265-f600a8201a48" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ProductManager" />
+  </component>
+  <component name="ProjectId" id="1jedTCm10LG3gvtnzaBA0lU1llQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.codejava.AppMain" />
+      <module name="ProductManager" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e50d92d4-bd28-4d1e-9265-f600a8201a48" name="Default Changelist" comment="" />
+      <created>1604168496084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604168496084</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604168617966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604168617966" />
+    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604168607583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="147" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1604168607583" />
+    <state width="661" height="174" key="GridCell.Tab.0.bottom" timestamp="1604235483099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604235483099" />
+    <state width="661" height="174" key="GridCell.Tab.0.center" timestamp="1604235483099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604235483099" />
+    <state width="661" height="174" key="GridCell.Tab.0.left" timestamp="1604235483099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604235483099" />
+    <state width="661" height="174" key="GridCell.Tab.0.right" timestamp="1604235483099">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604235483099" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1604168694228">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604168694228" />
+  </component>
+</project>
