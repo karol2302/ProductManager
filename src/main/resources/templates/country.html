@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Kraj</title>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css} "/>
+    <script th:src="@{/webjars/jquery/2.0.0/jquery.min.js}"></script>
+</head>
+<body>
+<div align="center">
+    <h1>Lista krajów</h1>
+    <a href="new_Country" class="btn btn-primary">Nowy Kraj</a>
+    <a href="new" class="btn btn-primary">Nowy produkt</a>
+    <br/><br/>
+    <table  style="max-width: 70%"  class="table table-condensed table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>Country ID</th>
+            <th>Nazwa</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="country : ${listCountries}">
+            <td th:text="${country.id}">ID Kraju</td>
+            <td th:text="${country.name}">Nazwa</td>
+            <td>
+                <a th:href="@{'/editCountry/' + ${country.id}}" class="btn btn-info" >Edit</a>
+                &nbsp;&nbsp;&nbsp;
+                <a th:href="@{'/deleteCountry/' + ${country.id}}" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <a href="../" class="btn btn-info">Back</a>
+</div>
+</body>
+</html>

@@ -3,37 +3,42 @@
 	xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="utf-8" />
-<title>Create New Product</title>
+<title>Nowy produkt</title>
+	<link th:rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css} "/>
+	<script th:src="@{/webjars/jquery/2.0.0/jquery.min.js}"></script>
 </head>
 <body>
 	<div align="center">
-		<h1>Create New Product</h1>
+		<h1>Stwórz nowy produkt</h1>
 		<br />
 		<form action="#" th:action="@{/save}" th:object="${product}"
-			method="post">
+			method="post" class="form-horizontal">
 
 			<table border="0" cellpadding="10">
 				<tr>
-					<td>Product Name:</td>
+					<td>Nazwa produktu:</td>
 					<td><input type="text" th:field="*{name}" /></td>
 				</tr>
 				<tr>
-					<td>Brand:</td>
+					<td>Marka:</td>
 					<td><input type="text" th:field="*{brand}" /></td>
 				</tr>
 				<tr>
-					<td>Made In:</td>
-					<td><input type="text" th:field="*{madein}" /></td>
+					<td>Wyprodukowano w :</td>
+					<td><input type="text" th:field="*{madein_id.name}" /></td>
 				</tr>
 				<tr>
-					<td>Price:</td>
+					<td>Cena:</td>
 					<td><input type="text" th:field="*{price}" /></td>
 				</tr>								
 				<tr>
-					<td colspan="2"><button type="submit">Save</button> </td>
+					<td colspan="2"><button type="submit" class="btn btn-success">Save</button>
+						<a href="../" class="btn btn-info">Back</a>
+					</td>
 				</tr>
 			</table>
 		</form>
-	</div>
-</body>
+
+ 	</div>
+ </body>
 </html>

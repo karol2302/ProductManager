@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Nowy kraj</title>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css} "/>
+    <script th:src="@{/webjars/jquery/2.0.0/jquery.min.js}"></script>
+</head>
+<body>
+<div align="center">
+    <h1>Stwórz nowy kraj</h1>
+    <br />
+    <form action="#" th:action="@{/saveCountry}" th:object="${productCountry}"
+          method="post" class="form-horizontal">
+
+        <table border="0" cellpadding="10">
+            <tr>
+                <td>Nazwa kraju:</td>
+                <td><input type="text" th:field="*{name}" /></td>
+            </tr>
+            <tr>
+                <br/>
+                 <td colspan="2"><button type="submit" class="btn btn-success">Save</button>
+                     <a href="../" class="btn btn-info">Back</a>
+                 </td>
+            </tr>
+        </table>
+    </form>
+    <br/>
+
+</div>
+</body>
+</html>

@@ -3,22 +3,28 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="utf-8"/>
-<title>Product Manager</title>
+<title>Magazyn</title>
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css} "/>
+    <script th:src="@{/webjars/jquery/2.0.0/jquery.min.js}"></script>
 </head>
 <body>
 <div align="center">
-    <h1>Product List</h1>
-    <a href="new">Create New Product</a>
-    <br/><br/>
-    <table border="1" cellpadding="10">
+    <h1>Magazyn</h1>
+    <a href="new" class="btn btn-primary" >Nowy Produkt</a>
+    <a href="Country" class="btn btn-primary" >Kraje...</a>
+    <br/>
+    Produktów : <label th:text="${CountProducts}" />
+    Krajów : <label th:text="${CountCountries}"/> <div id="content" />
+    <br/>
+    <table style="max-width: 70%"  class="table table-condensed table-bordered table-hover">
         <thead>
             <tr>
                 <th>Product ID</th>
-                <th>Name</th>
-                <th>Brand</th>
-                <th>Made In</th>
-                <th>Price</th>
-                <th>Actions</th>
+                <th>Nazwa</th>
+                <th>Marka</th>
+                <th>Wyprodukowano w </th>
+                <th>Cena</th>
+                <th>Akcje</th>
             </tr>
         </thead>
         <tbody>
@@ -26,16 +32,35 @@
             	<td th:text="${product.id}">Product ID</td>
                 <td th:text="${product.name}">Name</td>
                 <td th:text="${product.brand}">Brand</td>
-                <td th:text="${product.madein}">Made in</td>
+                <td th:text="${product.madein_id.name}">Made in</td>
                 <td th:text="${product.price}">Price</td>
                 <td>
-                	<a th:href="@{'/edit/' + ${product.id}}">Edit</a>
+                	<a class="btn btn-info" th:href="@{'/edit/' + ${product.id}}">Edit</a>
                 	&nbsp;&nbsp;&nbsp;
-                	<a th:href="@{'/delete/' + ${product.id}}">Delete</a>
+                	<a class="btn btn-danger" th:href="@{'/delete/' + ${product.id}}">Delete</a>
                 </td>
             </tr>
         </tbody>
     </table>
-</div>    
+</div>
+
+<script>
+$('document').ready(function(){
+
+	$.getJSON('/api/countries',function(data){
+		var products = data.products;
+		var ul = $("<select id='lala'>");
+		var items = '';
+		$.each(products,function(i,v){
+			items += "<option>" + v.name + "</option>";
+		});
+		ul.html(items);
+		$('#content').append(ul);
+
+	});
+
+});
+
+</script>
 </body>
 </html>

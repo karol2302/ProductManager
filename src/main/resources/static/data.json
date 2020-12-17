@@ -1,0 +1,22 @@
+{"products":[
+	{
+		"name":"Kurs JavaScript",
+		"price":"55zł",
+		"category":"Internet"
+    },
+    {
+    	"name":"Kurs jQuery",
+		"price":"49zł",
+		"category":"Internet"
+    },
+	{
+    	"name":"Kurs PHP",
+		"price":"54zł",
+		"category":"Internet"
+    },
+	{
+    	"name":"Kurs MySQL",
+		"price":"47zł",
+		"category":"Programowanie"
+    }
+]}
