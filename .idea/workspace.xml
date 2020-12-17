@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e50d92d4-bd28-4d1e-9265-f600a8201a48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/codejava/Controller/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/codejava/Controller/MyRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/codejava/repo/ProduktCountryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/codejava/services/ProduktCountryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/country.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit_country.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/new_country.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/codejava/AppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/codejava/Produkt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/codejava/models/Produkt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/codejava/ProduktRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/codejava/repo/ProduktRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/codejava/ProduktService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/codejava/services/ProduktService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/codejava/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/codejava/AppMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/net/codejava/AppMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/codejava/Produkt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/codejava/ProduktRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/net/codejava/ProduktService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/new_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/new_product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,22 +99,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="475" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1608156923706" />
-    <state width="1322" height="202" key="GridCell.Tab.0.bottom" timestamp="1608174837478">
+    <state width="1322" height="202" key="GridCell.Tab.0.bottom" timestamp="1608176182092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608174837478" />
-    <state width="1322" height="202" key="GridCell.Tab.0.center" timestamp="1608174837478">
+    <state width="1322" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608176182092" />
+    <state width="1322" height="202" key="GridCell.Tab.0.center" timestamp="1608176182092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="202" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608174837478" />
-    <state width="1322" height="202" key="GridCell.Tab.0.left" timestamp="1608174837478">
+    <state width="1322" height="202" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608176182092" />
+    <state width="1322" height="202" key="GridCell.Tab.0.left" timestamp="1608176182091">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="202" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608174837478" />
-    <state width="1322" height="202" key="GridCell.Tab.0.right" timestamp="1608174837478">
+    <state width="1322" height="202" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608176182091" />
+    <state width="1322" height="202" key="GridCell.Tab.0.right" timestamp="1608176182092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608174837478" />
+    <state width="1322" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608176182092" />
     <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1608172475064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
